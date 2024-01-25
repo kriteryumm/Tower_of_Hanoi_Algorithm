@@ -10,7 +10,9 @@ The objective of the puzzle is to move the entire stack to a new rod while follo
 
 
 1 - Only one disk at a time may be moved.
+
 2 - With every move, the tallest disk from a stack is taken out and either placed on top of another stack or on an empty rod.
+
 3 - No disk can be placed on top of another disk that is smaller than itself. 
 
 For solving this game we used two algorithm.
