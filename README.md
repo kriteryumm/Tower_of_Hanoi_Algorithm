@@ -1,4 +1,4 @@
-Tower of Hanoi 
+# Tower of Hanoi 
 A stack of disks needs to be transferred from one rod to another in the well-known math challenge known as the Tower of Hanoi while following these rules:
 
 There are three rods and various disks with different diameters.
