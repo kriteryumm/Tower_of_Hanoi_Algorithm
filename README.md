@@ -15,13 +15,14 @@ The objective of the puzzle is to move the entire stack to a new rod while follo
 
 3 - No disk can be placed on top of another disk that is smaller than itself. 
 
+# Algorithms
+
 For solving this game we used two algorithm.
-Recursive Algorithm
+## Recursive Algorithm
 1. To solve recursively the puzzle of shifting top 3 disk from Rod A to Rod B
 2. To move the largest disk to Rod C
 3. To solve recursively the puzzle of shifting disk on Rod B to Rod C
 
-Recursion Algorithm
 hanoi(n, start, end) provides a set of instructions to move n disks from the starting rod to the destination rod. 
 There are some assumptions to consider:
 
@@ -29,11 +30,13 @@ The starting rod is between 1 and 3 (1≤ Start ≤3).
 The destination rod is between 1 and 3 (1≤ End ≤3).
 The starting rod is not the same as the destination rod (Start ≠ End).
 
+## Iterative Algorithm
 
-In this code you will see how these algoritm works and the output of this algorithms with turtle library.
+We basically do the same things as we did in the recursive algorithm, using a different data type. We use stack logic in the iterative algorithm. This is important for us because the iterative algorithm is based on this. We implement the push(), pop(), isfull() and isEmpty() functions ourselves and use them in the algorithm.
+
 
 ## Results
-For result you can check the execution time for both algoritm.
+In this code you will see how these algoritm works and the output of this algorithms with turtle library. For result you can check the execution time for both algoritm.
 
 ![image](https://github.com/kriteryumm/Tower_of_Hanoi_Turtle/assets/61352431/b5a7e1f8-e895-452d-95f8-4c8e50ccf822)
 
